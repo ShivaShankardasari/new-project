@@ -1,0 +1,113 @@
+/* App.css */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* App container */
+.app-container {
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* Hero section */
+#hero {
+  background-color: #007BFF;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Card Section */
+#card-section {
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+#card-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Footer styles */
+#footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 1rem;
+}
